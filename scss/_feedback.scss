@@ -1,0 +1,41 @@
+.feedback {
+   position: relative;
+   padding-top: 60px;
+
+   &__form {
+      h3 {
+         margin-bottom: 50px;
+      }
+      p {
+         font-size: 16px;
+         line-height: 20px;
+         margin-left: 10px;
+      }
+      input {
+         margin-bottom: 33px;
+         padding: 10px;
+         width: 270px;
+         height: 46px;
+         font-size: 18px;
+         line-height: 23px;
+         border-radius: 0px;
+         border-color: #000;
+         &::placeholder {
+            font-size: 18px;
+            line-height: 23px;
+            color: #808080;
+         }
+      }
+      button {
+         margin-top: 15px;
+      }
+   }
+
+   &__image {
+      position: absolute;
+      right: 0;
+      top: 0px;
+      width: 809px;
+      height: 694px;
+   }
+}
