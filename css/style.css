@@ -287,3 +287,58 @@ a {
   width: 720px;
   height: 380px;
 }
+
+.nutrition {
+  margin: 170px 0px 41px 0px;
+  padding: 50px 0px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(0%, white));
+  background: linear-gradient(to right, black 50%, white 0%);
+  position: relative;
+}
+
+.nutrition h5 {
+  font: 900 24px/30px "SegoeWP";
+  mix-blend-mode: difference;
+  color: white;
+  max-width: 260px;
+  margin-bottom: 41px;
+  position: relative;
+}
+
+.nutrition h5::before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  width: 76px;
+  height: 1px;
+  background: #fea904;
+}
+
+.nutrition .nutrition__text {
+  mix-blend-mode: difference;
+  color: white;
+  max-width: 367px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.nutrition .logo-name {
+  position: absolute;
+  z-index: 5;
+  top: 100px;
+  left: 36.8%;
+  font: 900 210px/220px "SegoeWP";
+  background: -webkit-gradient(linear, left top, right top, color-stop(21%, white), color-stop(0%, rgba(254, 169, 4, 0.8)));
+  background: linear-gradient(90deg, white 21%, rgba(254, 169, 4, 0.8) 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.nutrition .people-image {
+  position: absolute;
+  z-index: 4;
+  top: -110px;
+  left: 55%;
+}
