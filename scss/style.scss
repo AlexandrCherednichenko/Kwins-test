@@ -22,10 +22,14 @@ a {
    padding: 0 10px;
 }
 
+.title {
+   font: 900 42px/55px "SegoeWP";
+}
+
 .yellow-color {
    color: #fea904;
 }
 
-
-
 @import "_header";
+
+@import "_range";

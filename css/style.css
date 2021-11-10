@@ -53,6 +53,10 @@ a {
   padding: 0 10px;
 }
 
+.title {
+  font: 900 42px/55px "SegoeWP";
+}
+
 .yellow-color {
   color: #fea904;
 }
@@ -110,23 +114,16 @@ a {
 }
 
 .header__content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   position: relative;
 }
 
-.header__title {
-  font: 900 42px/55px "SegoeWP";
+.header__content h3 {
   mix-blend-mode: difference;
   color: white;
   width: 560px;
 }
 
-.header__title button {
+.header__content button {
   margin-top: 60px;
   font-weight: 700;
   font-size: 18px;
@@ -138,7 +135,7 @@ a {
   cursor: pointer;
 }
 
-.header__image {
+.header__content img {
   position: absolute;
   top: -75px;
   left: 572px;
@@ -154,4 +151,74 @@ a {
   border-color: white;
   -webkit-transform: rotate(45deg) translateY(-5px);
           transform: rotate(45deg) translateY(-5px);
+}
+
+.range {
+  padding: 107px 0px 87px;
+}
+
+.range h3 {
+  margin-bottom: 60px;
+}
+
+.range__info {
+  width: 560px;
+  margin-bottom: 60px;
+}
+
+.range__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.range__item {
+  text-align: center;
+  cursor: pointer;
+}
+
+.range__item-image {
+  padding: 0 10px 20px;
+  position: relative;
+}
+
+.range__item-image::before {
+  content: "";
+  position: absolute;
+  background: #000000;
+  mix-blend-mode: multiply;
+  opacity: 0.35;
+  width: 347px;
+  height: 197px;
+}
+
+.range__item-image::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #fea904;
+  top: 137px;
+  left: 0px;
+  z-index: -1;
+}
+
+.range__item p {
+  position: relative;
+}
+
+.range__item p::after {
+  content: "";
+  position: absolute;
+  width: 76px;
+  height: 1px;
+  bottom: -3px;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #fea904;
 }
