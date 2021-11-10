@@ -5,3 +5,27 @@
 *::after {
    box-sizing: border-box;
 }
+
+body {
+   font: 400 20px/28px "Geometria";
+   cursor: default;
+}
+
+a {
+   color: inherit;
+   text-decoration: none;
+}
+
+.container {
+   max-width: 1160px;
+   margin: 0 auto;
+   padding: 0 10px;
+}
+
+.yellow-color {
+   color: #fea904;
+}
+
+
+
+@import "_header";
