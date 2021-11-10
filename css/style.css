@@ -346,6 +346,7 @@ a {
 .feedback {
   position: relative;
   padding-top: 60px;
+  height: 694px;
 }
 
 .feedback__form h3 {
@@ -403,4 +404,11 @@ a {
   top: 0px;
   width: 809px;
   height: 694px;
+}
+
+.feedback .arrow-up {
+  position: absolute;
+  bottom: 30px;
+  right: 10%;
+  cursor: pointer;
 }

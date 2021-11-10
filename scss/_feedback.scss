@@ -1,6 +1,7 @@
 .feedback {
    position: relative;
    padding-top: 60px;
+   height: 694px;
 
    &__form {
       h3 {
@@ -37,5 +38,12 @@
       top: 0px;
       width: 809px;
       height: 694px;
+   }
+
+   .arrow-up {
+      position: absolute;
+      bottom: 30px;
+      right: 10%;
+      cursor: pointer;
    }
 }
