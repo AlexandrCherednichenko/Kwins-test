@@ -412,3 +412,123 @@ a {
   right: 10%;
   cursor: pointer;
 }
+
+.footer {
+  background-color: #000000;
+  color: #fff;
+  padding-top: 60px;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  bottom: 50px;
+  width: 100vw;
+  height: 1px;
+  background-color: #fff;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 33px;
+}
+
+.footer__logo svg {
+  width: 173px;
+  height: 39px;
+}
+
+.footer__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.footer__menu > li + li {
+  margin-left: 55px;
+}
+
+.footer__menu .sub__menu {
+  margin-top: 11px;
+}
+
+.footer__menu .sub__menu li {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.footer__menu .sub__menu > li + li {
+  margin-top: 12px;
+}
+
+.footer__menu .contact__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__menu .contact__menu-main {
+  margin-left: 34px;
+  margin-right: 48px;
+}
+
+.footer__menu .contact__menu-main .phone:first-child {
+  position: relative;
+}
+
+.footer__menu .contact__menu-main .phone:first-child::before {
+  content: "";
+  position: absolute;
+  left: -34px;
+  top: -2px;
+  background: url(../images/phone.svg) 0 0 no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.footer__menu .contact__menu-main .email {
+  position: relative;
+}
+
+.footer__menu .contact__menu-main .email::before {
+  content: "";
+  position: absolute;
+  left: -32px;
+  top: 4px;
+  background: url(../images/email.svg) 0 0 no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.footer__menu .contact__menu-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.footer__copyright img {
+  margin-right: 8px;
+}

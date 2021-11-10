@@ -1,0 +1,94 @@
+.footer {
+   background-color: #000000;
+   color: #fff;
+   padding-top: 60px;
+   position: relative;
+
+   &::before {
+      content: "";
+      position: absolute;
+      bottom: 50px;
+      width: 100vw;
+      height: 1px;
+      background-color: #fff;
+   }
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 33px;
+   }
+
+   &__logo {
+      svg {
+         width: 173px;
+         height: 39px;
+      }
+   }
+
+   &__menu {
+      display: flex;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 32px;
+      > li + li {
+         margin-left: 55px;
+      }
+      .sub__menu {
+         margin-top: 11px;
+         li {
+            font-size: 20px;
+            line-height: 28px;
+         }
+         > li + li {
+            margin-top: 12px;
+         }
+      }
+
+      .contact__menu {
+         display: flex;
+         &-main {
+            margin-left: 34px;
+            margin-right: 48px;
+            .phone:first-child {
+               position: relative;
+               &::before {
+                  content: "";
+                  position: absolute;
+                  left: -34px;
+                  top: -2px;
+                  background: url(../images/phone.svg) 0 0 no-repeat;
+                  width: 30px;
+                  height: 30px;
+               }
+            }
+            .email {
+               position: relative;
+               &::before {
+                  content: "";
+                  position: absolute;
+                  left: -32px;
+                  top: 4px;
+                  background: url(../images/email.svg) 0 0 no-repeat;
+                  width: 30px;
+                  height: 30px;
+               }
+            }
+         }
+
+         &-social {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+         }
+      }
+   }
+
+   &__copyright {
+      display: flex;
+      padding: 10px 0px;
+      img {
+         margin-right: 8px;
+      }
+   }
+}
