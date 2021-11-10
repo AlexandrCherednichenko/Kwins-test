@@ -30,6 +30,20 @@ a {
    color: #fea904;
 }
 
+.button {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 20px;
+   width: 270px;
+   height: 50px;
+   color: white;
+   background-color: #fea904;
+   border: none;
+   cursor: pointer;
+}
+
 @import "_header";
 
 @import "_range";
+
+@import "_benefits";
