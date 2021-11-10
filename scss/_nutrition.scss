@@ -3,6 +3,8 @@
    padding: 50px 0px;
    background: linear-gradient(to right, black 50%, white 0%);
    position: relative;
+   overflow: hidden;
+
    h5 {
       font: 900 24px/30px "SegoeWP";
       mix-blend-mode: difference;

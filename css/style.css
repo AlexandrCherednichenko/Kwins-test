@@ -78,6 +78,7 @@ a {
   background: linear-gradient(to right, black 56%, white 44%);
   height: 628px;
   padding-top: 47px;
+  overflow: hidden;
 }
 
 .header__menu {
@@ -156,6 +157,7 @@ a {
 
 .range {
   padding: 107px 0px 87px;
+  overflow: hidden;
 }
 
 .range h3 {
@@ -254,6 +256,7 @@ a {
   background: -webkit-gradient(linear, left top, right top, color-stop(58%, white), color-stop(42%, black));
   background: linear-gradient(to right, white 58%, black 42%);
   position: relative;
+  overflow: hidden;
 }
 
 .benefits h3 {
@@ -294,6 +297,7 @@ a {
   background: -webkit-gradient(linear, left top, right top, color-stop(50%, black), color-stop(0%, white));
   background: linear-gradient(to right, black 50%, white 0%);
   position: relative;
+  overflow: hidden;
 }
 
 .nutrition h5 {
@@ -347,6 +351,7 @@ a {
   position: relative;
   padding-top: 60px;
   height: 694px;
+  overflow: hidden;
 }
 
 .feedback__form h3 {
@@ -418,6 +423,7 @@ a {
   color: #fff;
   padding-top: 60px;
   position: relative;
+  overflow: hidden;
 }
 
 .footer::before {

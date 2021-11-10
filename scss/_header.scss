@@ -2,6 +2,8 @@
    background: linear-gradient(to right, black 56%, white 44%);
    height: 628px;
    padding-top: 47px;
+   overflow: hidden;
+
    &__menu {
       display: flex;
       justify-content: space-between;
