@@ -64,26 +64,26 @@
          <p class="range__info">Предлагаем тренироваться на свежем воздухе  с возможностью использования переменной
             нагрузки.
          </p>
-         <div class="range__items">
-            <div class="range__item">
+         <ul class="range__items">
+            <li class="range__item">
                <div class="range__item-image">
                   <img src="images/range-1.jpg" alt="range-1">
                </div>
                <p>Бодибилдинг</p>
-            </div>
-            <div class="range__item">
+            </li>
+            <li class="range__item">
                <div class="range__item-image">
                   <img src="images/range-2.jpg" alt="range-2">
                </div>
                <p>Воркаут</p>
-            </div>
-            <div class="range__item">
+            </li>
+            <li class="range__item">
                <div class="range__item-image">
                   <img src="images/range-3.jpg" alt="range-3">
                </div>
                <p>Кросс-фит</p>
-            </div>
-         </div>
+            </li>
+      </div>
       </div>
    </section>
 
@@ -118,16 +118,20 @@
       <div class="container">
          <div class="feedback__form">
             <h3 class="title"><span class="yellow-color">СВЯЗАТЬСЯ</span> С НАМИ</h3>
-            <p>Имя</p>
-            <input type="text" name="name" id="name" placeholder="Как Вас зовут?">
-            <p>Телефон</p>
-            <input type="tel" name="phone" id="phone" placeholder="Ваш номер телефона">
-            <p>E-mail</p>
-            <input type="email" name="email" id="email" placeholder="Ваш e-mail"><br>
-            <button type="submit" class="button">ЗАКАЗАТЬ КОМПЛЕКС</button>
+            <form id="form" name="form" method="post">
+               <label for="form">Имя</label>
+               <input type="text" name="name" id="name" placeholder="Как Вас зовут?">
+               <label for="form">Телефон</label>
+               <input type="tel" name="phone" id="phone" placeholder="Ваш номер телефона">
+               <label for="form">E-mail</label>
+               <input type="email" name="email" id="email" placeholder="Ваш e-mail"><br>
+               <button type="submit" class="button">ЗАКАЗАТЬ КОМПЛЕКС</button>
+            </form>
          </div>
          <img class="feedback__image" src="images/feedback-image.png" alt="image">
-         <img class="arrow-up" src="images/arrow.svg" alt="arrow-up">
+         <div class="arrow-up">
+            <img src="images/arrow.svg" alt="arrow-up">
+         </div>
       </div>
    </section>
 
@@ -176,6 +180,7 @@
          </div>
       </div>
    </footer>
+
 
    <script src="js/script.js"></script>
 </body>

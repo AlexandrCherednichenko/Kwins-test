@@ -40,6 +40,15 @@ a {
    background-color: #fea904;
    border: none;
    cursor: pointer;
+   transition: 0.3s;
+   &:hover {
+      background-color: #fed481;
+      transition: 0.3s;
+   }
+   &:active {
+      color: #000;
+      background-color: #fea904;
+   }
 }
 
 .lock {
